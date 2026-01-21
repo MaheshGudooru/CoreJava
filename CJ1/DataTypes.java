@@ -1,8 +1,12 @@
 
+import java.util.Arrays;
+
 public class DataTypes {
 
     public static void main() {
 
+        System.out.println("Primitives");
+        System.out.println();
         byte byteVar = 127; // byte a = 128 (This gives a compilation error since byte range is -128 t0 127 so new "a" is treated as an "int")
         System.out.println("Byte value is " + byteVar);
         System.out.println("A byte ranges from " + Byte.MIN_VALUE + " to " + Byte.MAX_VALUE);
@@ -43,6 +47,16 @@ public class DataTypes {
         System.out.println("long value is " + longVar);
         System.out.println("A long ranges from " + Long.MIN_VALUE + " to " + Long.MAX_VALUE);
         System.out.println("Long => " + Long.SIZE + " bits");
+
+        System.out.print("\n\n");
+        System.out.println("Primitives");
+        System.out.println();
+
+        Object arr = new int[2];
+        System.out.println("arr is an array => " + (arr instanceof int[]));
+
+        Object str = "mahesh";
+        System.out.println("str is a string => " + (str instanceof String)); // is str an instance of String class
 
     }
 }
