@@ -1,4 +1,4 @@
-package Hierarchical;
+package hierarchical;
 
 public class Test {
     static void main() {

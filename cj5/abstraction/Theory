@@ -1,0 +1,60 @@
+                ┌───────────────────────────┐
+                │        Interface          │
+                │---------------------------│
+                │ - No state (fields)       │
+                │ - Abstract methods        │
+                │ - Default/static methods  │
+                │ - Multiple inheritance    │
+                └─────────────▲─────────────┘
+                              │ implements
+                              │
+   ┌──────────────────────────┴───────────────────────────┐
+   │                                                      │
+┌──┴───────────────────┐                        ┌─────────┴────────────┐
+│   Abstract Class     │                        │   Sealed Class       │
+│----------------------│                        │----------------------│
+│ - Can have state     │                        │ - Controls which     │
+│ - Constructors       │                        │   classes extend     │
+│ - Abstract + concrete│                        │ - Works with         │
+│   methods            │                        │   interfaces too     │
+│ - Single inheritance │                        │ - Useful for         │
+└───────────▲──────────┘                        │   closed hierarchies │
+            │ extends                           └─────────▲────────────┘
+            │                                             │ permits
+            │                                             │
+   ┌────────┴──────────┐                         ┌────────┴──────────┐
+   │ Concrete Class    │                         │ Specific Subclass │
+   │-------------------│                         │-------------------│
+   │ - Implements all  │                         │ - Must be listed  │
+   │   abstract methods│                         │   in sealed class │
+   │ - Instantiable    │                         │   permits clause  │
+   └───────────────────┘                         └───────────────────┘
+
+
+                     JUST FOR QUICK REFERENCE PURPOSE
+
+
+   Abstract class: Intern should learn Java(abstract method) and work on projects(concrete method) but I care how they learn Java
+   Interfaces: A company should have a branch(doesn't matter where), website(doesn't matter in which server) and employee(doesn't matter how many or who)
+
+
+| Feature              | Abstract Class                  | Interface                              |
+| -------------------- | ------------------------------  | -------------------------------------- |
+| Purpose              | Partial abstraction             | Complete abstraction (conceptually)    |
+| Keyword              | abstract class                  | interface                              |
+| Object creation      | Cannot create object            | Cannot create object                   |
+| Inheritance          | extends (only one class)        | implements (multiple interfaces)       |
+| Multiple inheritance | Not supported                   | Supported                              |
+| Methods              | Abstract + concrete             | Abstract, default, static, private     |
+| Method access        | Any access modifier             | public by default                      |
+| Variables            | Instance variables allowed      | Only constants (public static final)   |
+| Constructors         | Allowed                         | Not allowed                            |
+| Static block         | Allowed                         | Not allowed                            |
+| Instance block       | Allowed                         | Not allowed                            |
+| State (data)         | Can have state                  | No state                               |
+
+
+
+
+
+

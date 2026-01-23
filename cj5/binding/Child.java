@@ -13,7 +13,6 @@ public class Child extends Parent {
 
         Parent b = new Child();
 // (Reference type)    (Object type)
-
         b.doSomething(); // This is dynamic binding since the method call is resolved during run-time because the reference type and object type are different
 
     }

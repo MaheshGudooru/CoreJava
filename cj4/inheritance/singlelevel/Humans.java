@@ -1,4 +1,4 @@
-package SingleLevel;
+package singlelevel;
 
 public class Humans extends Animals{
 

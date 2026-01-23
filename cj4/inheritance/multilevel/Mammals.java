@@ -1,4 +1,4 @@
-package MultiLevel;
+package multilevel;
 
 public class Mammals extends Animals{
 
