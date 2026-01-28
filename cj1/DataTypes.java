@@ -50,7 +50,7 @@ public class DataTypes {
         System.out.println("Long => " + Long.SIZE + " bits");
 
         System.out.print("\n\n");
-        System.out.println("Primitives");
+        System.out.println("non-primitives");
         System.out.println();
 
         Object arr = new int[2];

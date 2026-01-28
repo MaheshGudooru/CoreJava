@@ -1,6 +1,6 @@
 package binding;
 
-// Dynamic binding can be achieved by implementing Overriding(method call is resolved during runtime)
+
 
 public class Child extends Parent {
 

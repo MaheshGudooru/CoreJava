@@ -19,13 +19,13 @@ public class Aggregation {
         Interns mahesh = new Interns("Mahesh", 21);
         internsList.add(mahesh);
 
-        Interns ganesh = new Interns("Mahesh", 21);
+        Interns ganesh = new Interns("Ganesh", 21);
         internsList.add(ganesh);
 
-        Interns manoj = new Interns("Mahesh", 21);
+        Interns manoj = new Interns("Manoj", 21);
         internsList.add(manoj);
 
-        Interns shivaram = new Interns("Mahesh", 21);
+        Interns shivaram = new Interns("Shivaram", 21);
         internsList.add(shivaram);
 
         techouts.addInterns(internsList);

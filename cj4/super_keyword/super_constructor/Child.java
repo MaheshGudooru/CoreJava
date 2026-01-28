@@ -1,4 +1,4 @@
-package SuperConstructor;
+package super_keyword.super_constructor;
 
 public class Child extends Parent{
 

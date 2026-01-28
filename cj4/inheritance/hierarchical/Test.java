@@ -1,4 +1,4 @@
-package hierarchical;
+package inheritance.hierarchical;
 
 public class Test {
     static void main() {
@@ -7,6 +7,9 @@ public class Test {
         cow.canEatGrass();
         cow.canBreath();
         cow.canSleep();
+
+        System.out.println();
+
         Tiger tiger = new Tiger();
         tiger.canEat();
         tiger.canEatMeat();

@@ -1,4 +1,4 @@
-package multilevel;
+package inheritance.multilevel;
 
 public class Animals {
 

@@ -1,4 +1,4 @@
-package SuperVar;
+package super_keyword.super_variable;
 
 public class Parent {
 

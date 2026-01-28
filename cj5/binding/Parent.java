@@ -2,7 +2,7 @@ package binding;
 
 // Binding refers to the process of connecting method call to the appropriate method body (implementation)
 
-// Static binding can be achieved by implementing method Overloading(method call is resolved during compilation by the compiler)
+
 
 public class Parent {
 

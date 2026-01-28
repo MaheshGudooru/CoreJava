@@ -1,4 +1,4 @@
-package hierarchical;
+package inheritance.hierarchical;
 
 public class Tiger extends Animal{
 

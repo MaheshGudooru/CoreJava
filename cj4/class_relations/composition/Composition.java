@@ -2,7 +2,7 @@ package class_relations.composition;
 
 // TechOuts office is a "part of" vaishnavi cynosure so without the cynosure itself it wouldn't exist i.e., the office
 
-// so here Office object completely dependents on the VaishnaviCynosure so without cynosure it wouldn't make sense for the Office object to exist
+// so here Office object completely depends on the VaishnaviCynosure so without cynosure it wouldn't make sense for the Office object to exist
 
 import java.util.HashSet;
 import java.util.Set;

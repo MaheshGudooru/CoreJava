@@ -13,5 +13,6 @@ public class BitwiseOperators {
         System.out.println("a >> b = " + Integer.toBinaryString(b >> 1));
         System.out.println("a << b = " + Integer.toBinaryString(b << 1));
         System.out.println("a >>> b = " + Integer.toBinaryString(a >>> b));
+        System.out.println("~ b = " + Integer.toBinaryString(~ b));
     }
 }

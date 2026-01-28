@@ -11,10 +11,10 @@ public class Test {
         innerClassObj.printMsg();
         System.out.println();
 
-        NonStaticOuterClass.InnerClass.printMsgw();
+        NonStaticOuterClass.InnerClass.printstaticMsg();
         System.out.println();
 
-        NonStaticOuterClass.StaticInnerClass.printMsg();
+        NonStaticOuterClass.StaticInnerClass.printstaticMsg();
         System.out.println();
 
         NonStaticOuterClass.StaticInnerClass staticInnerClassObj = new NonStaticOuterClass.StaticInnerClass();

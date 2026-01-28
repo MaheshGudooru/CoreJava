@@ -1,4 +1,4 @@
-package abstract_classes;
+package abstraction.abstract_classes;
 
 
 // Abstract class are blueprint for other class.

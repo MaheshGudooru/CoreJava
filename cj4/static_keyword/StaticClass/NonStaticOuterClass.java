@@ -16,7 +16,7 @@ public class NonStaticOuterClass {
             System.out.println("to access this I created an object for \"NonStaticOuterClass\" and \"InnerClass\"");
         }
 
-        public static void printMsgw() {
+        public static void printstaticMsg() {
             System.out.println("Static method inside non-static Inner class i.e., \"InnerClass\"");
             System.out.println("to access this I created an object for \"InnerClass\"");
         }
@@ -24,7 +24,7 @@ public class NonStaticOuterClass {
 
     static class StaticInnerClass {
 
-        public static void printMsg() {
+        public static void printstaticMsg() {
             System.out.println("static method inside static Inner class i.e., \"StaticInnerClass\"");
             System.out.println("to access this I haven't created any object");
         }

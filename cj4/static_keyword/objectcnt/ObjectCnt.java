@@ -1,4 +1,4 @@
-package static_keyword.ObjectCnt;
+package static_keyword.objectcnt;
 
 
 public class ObjectCnt {

@@ -1,4 +1,4 @@
-package singlelevel;
+package inheritance.singlelevel;
 
 public class Animals {
 

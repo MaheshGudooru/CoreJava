@@ -5,7 +5,7 @@ public class ContinueStatement {
         System.out.println("even numbers upto 20");
 
         for (int i = 0; i <= 20; i++) {
-            if((i & 1) == 1) {  // i.e., odd since LSB is set bit
+            if((i & 1) == 1) {  // i.e., odd if LSB is set bit
                 continue;
             }
 

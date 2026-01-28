@@ -1,4 +1,4 @@
-package SuperVar;
+package super_keyword.super_variable;
 
 // The main purpose of super keyword is to resolve ambiguity issues between child and parent class
 // sometimes you might want to access parent class members or methods that has been overridden by the child class; In such scenarios we use super keyword

@@ -1,4 +1,4 @@
-package SuperMethod;
+package super_keyword.super_method;
 
 public class Child extends Parent{
 

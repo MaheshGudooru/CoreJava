@@ -1,11 +1,11 @@
-package singlelevel;
+package inheritance.singlelevel;
 
 public class Test {
 
     static void main(String[] args) {
 
         Animals tiger = new Animals();
-        Humans jake = new Humans();
+        Animals jake = new Humans();
 
 //        output:
 //                Hey we are animals!!

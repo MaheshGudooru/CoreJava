@@ -13,8 +13,8 @@ public class CopyConstructor {
     }
 
     CopyConstructor(CopyConstructor obj) {
-        employeeName = obj.employeeName;
-        employeeCompany = obj.employeeCompany;
+        this.employeeName = obj.employeeName;
+        this.employeeCompany = obj.employeeCompany;
     }
 
     public void printDetails() {

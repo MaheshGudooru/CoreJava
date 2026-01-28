@@ -1,5 +1,7 @@
 package static_keyword;
 
+// static block is a block of code that executes only once when the class is being loaded into the memory
+
 public class StaticBlock {
 
 
