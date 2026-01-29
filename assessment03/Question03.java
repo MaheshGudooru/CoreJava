@@ -9,7 +9,7 @@ public class Question03 {
         System.out.println("This is method 02");
     }
 
-    static void main(String[] args) {
+    public static void main(String[] args) {
         Question03 obj = new Question03();
         obj.m2();
 

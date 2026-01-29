@@ -1,6 +1,6 @@
 public class PrintPrime {
 
-    static void main() {
+    public static void main(String[] args) {
 
         for(int i = 2; i <= 100; i++) {
             boolean isPrime = true;

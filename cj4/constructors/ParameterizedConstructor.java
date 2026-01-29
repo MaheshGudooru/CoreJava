@@ -17,7 +17,7 @@ public class ParameterizedConstructor {
         System.out.println("param02: " + param02);
     }
 
-    static void main(String[] args) {
+    public static void main(String[] args) {
         ParameterizedConstructor obj = new ParameterizedConstructor("TechOuts", "Intern");
         obj.DisplayParams();
     }

@@ -1,15 +1,15 @@
 package abstraction.abstract_classes;
 
-
+//
 // Abstract class are blueprint for other class.
 // Abstract class are used to enforce certain rules on the class that extend them
 // can have both abstract methods(methods without implementation) and concrete methods(methods with implementation)
 // cannot create objects for abstract classes directly
 // provide partial abstraction since concrete methods are supposed
 // can have states(members of instantiated class) and constructors
-
+//
 //                "MUST DO THESE THINGS BUT I WON'T TELL YOU HOW"
-
+//
 // ex: Techouts is an abstract class has abstract methods "learnedJava" and "learnedPython"
 // Techouts does not care about how you learned those languages (could have learned by watching tutorials, reading coding books etc..)
 // But you should know Java and Python(implementation)
@@ -55,7 +55,7 @@ class Rakesh extends TechOuts {
 }
 
 class Test {
-    static void main() {
+    public static void main(String[] args) {
 
         System.out.println("NORMAL SUBCLASS");
         Rakesh r = new Rakesh(69696969);

@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class AdvancedSwitch {
 
-    static void main(String[] args) {
+    public static void main(String[] args) {
         try (Scanner s = new Scanner(System.in)) {
 
             boolean runLoop = true;

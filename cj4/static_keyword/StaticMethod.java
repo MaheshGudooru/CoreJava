@@ -19,7 +19,7 @@ public class StaticMethod {
         return s1.toUpperCase() + " " + s2.toUpperCase();
     }
 
-    static void main(String[] args) {
+    public static void main(String[] args) {
 
         System.out.println("called using the class name");
         System.out.println(StaticMethod.concatenate("Mahesh", "TechOuts"));

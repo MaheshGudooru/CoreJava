@@ -1,0 +1,12 @@
+
+
+
+
+        Object ---> Throwable ----> Error
+                        |
+                        |
+                        |
+                        Exception ---> RuntimeException
+                            |
+                            |
+                        other exceptions

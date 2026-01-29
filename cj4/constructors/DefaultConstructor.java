@@ -10,7 +10,7 @@ public class DefaultConstructor {
         System.out.println("Default constructor");
     }
 
-    static void main(String[] args) {
+    public static void main(String[] args) {
         DefaultConstructor obj = new DefaultConstructor();
     }
 }

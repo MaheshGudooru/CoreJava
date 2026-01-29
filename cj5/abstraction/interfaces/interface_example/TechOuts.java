@@ -1,4 +1,4 @@
-package interfaces.interface_example;
+package abstraction.interfaces.interface_example;
 
 public class TechOuts implements Company{
     @Override

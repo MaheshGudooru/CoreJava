@@ -1,7 +1,7 @@
-package interfaces.interface_example;
+package abstraction.interfaces.interface_example;
 
 public class Test {
-    static void main() {
+    public static void main(String[] args) {
 
         TechOuts techouts = new TechOuts();
         techouts.branch();

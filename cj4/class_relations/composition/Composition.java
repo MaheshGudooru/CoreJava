@@ -9,7 +9,7 @@ import java.util.Set;
 
 public class Composition {
 
-    static void main() {
+    public static void main(String[] args) {
 
         VaishnaviCynosure vaishnaviCynosure = new VaishnaviCynosure();
 

@@ -10,7 +10,7 @@ import java.util.List;
 
 public class Association {
 
-    static void main() {
+    public static void main(String[] args) {
 
         Computer computer = new Computer();
 

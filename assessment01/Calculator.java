@@ -22,7 +22,7 @@ public class Calculator {
         }
     }
 
-    static void main() {
+    public static void main(String[] args) {
 
         Calculator obj = new Calculator();
         int a, b;

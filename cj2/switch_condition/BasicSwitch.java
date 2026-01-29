@@ -3,7 +3,7 @@ package switch_condition;
 import java.util.Scanner;
 
 public class BasicSwitch {
-    static void main(String[] args) {
+    public static void main(String[] args) {
         try (Scanner s = new Scanner(System.in)) {
 
             boolean runLoop = true;

@@ -1,7 +1,7 @@
 package jump_statements;
 
 public class AdvancedJump {
-    static void main(String[] args) {
+    public static void main(String[] args) {
 
         System.out.println("Start");
         OUTERLOOP:

@@ -1,7 +1,7 @@
 package arrays;
 
 public class MultiDimensionalArr {
-    static void main(String[] args) {
+    public static void main(String[] args) {
         int[][] matrix = {
                 {1, 3, 5, 6},
                 {3, 5, 7, 2},

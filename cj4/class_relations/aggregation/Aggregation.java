@@ -10,7 +10,7 @@ import java.util.Set;
 
 public class Aggregation {
 
-    static void main() {
+    public static void main(String[] args) {
 
         TechOuts techouts = new TechOuts();
 

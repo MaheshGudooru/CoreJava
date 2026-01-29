@@ -1,4 +1,4 @@
-package interfaces.interface_example;
+package abstraction.interfaces.interface_example;
 
 
 // A Company must have a branch, website and employee (i.e., implementation)

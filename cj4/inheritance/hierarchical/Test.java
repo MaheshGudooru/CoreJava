@@ -1,7 +1,7 @@
 package inheritance.hierarchical;
 
 public class Test {
-    static void main() {
+    public static void main() {
         Cows cow = new Cows();
         cow.canEat();
         cow.canEatGrass();

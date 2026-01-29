@@ -11,7 +11,7 @@ public class PrivateConstructors {
 }
 
 class Test {
-    static void main(String[] args) {
+    public static void main(String[] args) {
 //        PrivateConstructors obj = new PrivateConstructors(); // this line will throw the error
     }
 }

@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.List;
 
 public class ArrMethods {
-    static void main(String[] args) {
+    public static void main(String[] args) {
         int[] arr = {4,2,7,9,4,2,7,0,7,2,546,9,34,5,58,5,578,69,23,42,34,23,42,5,436,54,7,567};
 
         // clone exact copy

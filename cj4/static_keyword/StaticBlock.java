@@ -30,7 +30,7 @@ public class StaticBlock {
         System.out.println("Printing something..");
     }
 
-    static void main(String[] args) {
+    public static void main(String[] args) {
 
         System.out.println(StaticBlock.age);
 

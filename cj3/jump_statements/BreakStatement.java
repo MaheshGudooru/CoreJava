@@ -1,7 +1,7 @@
 package jump_statements;
 
 public class BreakStatement {
-    static void main(String[] args) {
+    public static void main(String[] args) {
 
         System.out.println("below numbers are less than 10");
 

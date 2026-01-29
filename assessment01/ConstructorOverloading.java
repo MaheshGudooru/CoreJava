@@ -12,7 +12,7 @@ public class ConstructorOverloading {
         System.out.println(str1 + " " + str2);
     }
 
-    static void main() {
+    public static void main(String[] args) {
         new ConstructorOverloading();
         new ConstructorOverloading(3,4);
         new ConstructorOverloading("techouts", "interns");

@@ -22,7 +22,7 @@ public class CopyConstructor {
     }
 
 
-    static void main(String[] args) {
+    public static void main(String[] args) {
         CopyConstructor obj01 = new CopyConstructor("Mahesh", "TechOuts");
         System.out.print("obj01 => ");
         obj01.printDetails();

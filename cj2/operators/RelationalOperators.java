@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class RelationalOperators {
 
-    public static void main() {
+    public static void main(String[] args) {
         int a, b;
 
         try (Scanner s = new Scanner(System.in)) {

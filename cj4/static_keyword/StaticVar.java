@@ -8,7 +8,7 @@ public class StaticVar {
         System.out.println("PI value is " + PI);
     }
 
-    static void main(String[] args) {
+    public static void main(String[] args) {
 
         StaticVar obj01 = new StaticVar();               //   PI
         obj01.displayPI();                              //    /\

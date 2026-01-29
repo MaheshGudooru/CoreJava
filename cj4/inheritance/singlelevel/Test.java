@@ -2,7 +2,7 @@ package inheritance.singlelevel;
 
 public class Test {
 
-    static void main(String[] args) {
+    public static void main(String[] args) {
 
         Animals tiger = new Animals();
         Animals jake = new Humans();
