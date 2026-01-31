@@ -15,7 +15,7 @@ public class Account implements Runnable {
 
         if (balance < amount) {
             try {
-                System.out.println("server busy...");
+                System.out.println("waiting for deposit...");
                 System.out.println("Thread " + Thread.currentThread().getName() + " is waiting");
                 wait();
             } catch (InterruptedException e) {
