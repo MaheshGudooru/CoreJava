@@ -14,7 +14,7 @@ public class ConsumerExample {
             }
         };
 
-        Consumer<String> consumer1 = (String s) -> System.out.println (s);
+        Consumer<String> consumer1 = (s) -> System.out.println (s);
 
         consumer.accept ("this is a String..");
         consumer1.accept ("this is a String..");
